@@ -6,7 +6,7 @@ const cors = require('cors');
 const jwt = require("jsonwebtoken");
 
 const app = express();
-
+// if you make this project backend heavy when ever make .env and put db string and sensitive things into that
 // Middleware
 app.use(cors({
   origin:['http://localhost:5173',
